@@ -3,98 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <title>Anthony's Links</title>
-    <style>
-      /* styles for the body */
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #f5f5f5;
-        color: #333;
-        margin: 0;
-        padding: 0;
+    <link rel="stylesheet" href="styles2.css" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-JP5293G2HB"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
       }
-
-      /* styles for the header */
-      header {
-        background-color: #333;
-        color: #fff;
-        padding: 20px;
-        text-align: center;
-      }
-
-      header h1 {
-        font-size: 36px;
-        font-weight: bold;
-        margin: 0;
-      }
-
-      /* styles for the main content */
-      main {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 40px;
-        text-align: center;
-      }
-
-      main h2 {
-        font-size: 24px;
-        font-weight: bold;
-        margin-top: 30px;
-        margin-bottom: 15px;
-      }
-
-      main p {
-        font-size: 18px;
-        line-height: 1.5;
-        margin-bottom: 15px;
-      }
-
-      /* styles for the hexagon container */
-      .hexagon {
-        position: relative;
-        width: 800px;
-        height: 800px;
-        margin: 0 auto;
-        background-color: #1e90ff;
-        clip-path: polygon(
-          50% 0%,
-          100% 25%,
-          100% 75%,
-          50% 100%,
-          0% 75%,
-          0% 25%
-        );
-      }
-
-      /* styles for the hexagon content */
-      .hexagon-content {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-
-      /* styles for the footer */
-      footer {
-        background-color: yellow;
-        color: #fff;
-        padding: 20px;
-        text-align: center;
-      }
-
-      footer p {
-        margin: 0;
-      }
-    </style>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JP5293G2HB"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-JP5293G2HB');
-</script>  
-</head>
+      gtag("js", new Date());
+      gtag("config", "G-JP5293G2HB");
+    </script>
+  </head>
   <body>
     <header>
       <h1>Anthony's Links</h1>
@@ -107,7 +30,7 @@
           <ul>
             <li>I post about news</li>
             <li>I research crypto companies</li>
-            <li>I enform readers about a variety of topics</li>
+            <li>I inform readers about a variety of topics</li>
           </ul>
 
           <p>
@@ -131,6 +54,12 @@
           </p>
         </div>
       </div>
+      
+      <section>
+        <h2>About Me</h2>
+        <p>Here's some information about me...</p>
+      </section>
+      
     </main>
 
     <footer>
